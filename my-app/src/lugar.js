@@ -267,3 +267,6 @@ function Lugar() {
 }
 
 export default Lugar;
+
+//Referencias:
+//https://github.com/varsllc/livelylab/blob/main/pie/pie_tooltip/Pie.js
