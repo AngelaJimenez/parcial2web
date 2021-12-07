@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
-import Pagina from "./pagina";
 
+import Lugar from "./lugar";
+import { FormattedMessage } from "react-intl";
 function App() {
   return (
-    <div className="App">
-      <Pagina/>
+    <div className="container">
+       <h1><FormattedMessage id="MySpaces"/></h1>
+      <Lugar/>
     </div>
   );
 }
